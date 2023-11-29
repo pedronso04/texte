@@ -1,0 +1,97 @@
+
+@media screen and (max-width: 600px) {   
+  body{
+    background-color: chartreuse;
+    margin: 100;
+  }
+}
+
+      
+    
+
+header{
+   
+    height: 200px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+    font-size:40px;
+    background-color: rgba(0, 0, 0, 0.5); /* 0.5 é o valor alpha para 50% de transparência */
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+a{
+    color: rgb(13, 131, 52);
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+
+
+
+
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza o vídeo */
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Coloca o vídeo atrás de todo o conteúdo */
+  }
+
+  /* Adicione estilos adicionais conforme necessário para o restante do conteúdo */
+  .content {
+    position: relative;
+    z-index: 1; /* Coloca o conteúdo na frente do vídeo */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  P{
+    color: aliceblue;
+  }
+ 
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3,250px); /* 3 colunas de 100px cada */
+  grid-gap: 40px; /* Espaço de 20px entre as colunas */
+  justify-content: center;
+  height: 200vh;
+  
+}
+.quadrado {
+  width: 700px;
+  height: 180px;
+  background-color: blue;
+  margin: 40px; /* Espaço entre os quadrados */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+h2{
+  margin: 10px;
+  padding: 10px;
+  color: rgb(13, 131, 52);
+  font-size: 30px;
+}
+.aqui{
+  color:aliceblue;
+}
+main{
+  background-color:coral;
+}

@@ -1,0 +1,80 @@
+*{
+  font-size: 30px;
+}
+
+header{
+ 
+  height: 200px;
+  display: flex;
+  justify-content:space-around;
+  flex-direction: row;
+  align-items: center;
+  font-size:40px;
+  background-color: rgba(0, 0, 0, 0.5); /* 0.5 é o valor alpha para 50% de transparência */
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+a{
+  color: rgb(13, 131, 52);
+}
+.logo{
+  height: 200px;
+  width: 200px;
+  display: flex;
+}
+
+
+
+
+
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centraliza o vídeo */
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; /* Coloca o vídeo atrás de todo o conteúdo */
+}
+
+/* Adicione estilos adicionais conforme necessário para o restante do conteúdo */
+.content {
+  position: relative;
+  z-index: 1; /* Coloca o conteúdo na frente do vídeo */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+P{
+  color: aliceblue;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+section {
+  width: 45%; /* Ajuste a largura conforme necessário */
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;    
+}
+.link{
+  color:chartreuse
+}
+h2{
+  color: rgb(20, 87, 145);
+}
