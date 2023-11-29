@@ -1,3 +1,10 @@
+@media screen and (max-width: 600px) {   
+  body{
+    background-color: chartreuse;
+    
+  }
+}
+
 *{
   font-size: 30px;
 }
